@@ -1,1 +1,2 @@
-# arduino-ph-sensor
+# Arduino pH Sensor
+Reading a pH sensor with Arduino
