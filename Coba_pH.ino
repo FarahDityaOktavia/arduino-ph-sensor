@@ -12,7 +12,7 @@ float slope;
 float intercept;
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   slope = ( (pHBase - pHNeutral) / (avgAnalogValueBase - avgAnalogValueNeutral) + (pHNeutral - pHAcid) / (avgAnalogValueNeutral - avgAnalogValueAcid) ) / 2;
   intercept = pHNeutral - (slope * avgAnalogValueNeutral);
 }
